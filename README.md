@@ -7,7 +7,7 @@ just a chatbot for beary
 #### 装虚拟环境
 pip install -r req.txt
 #### 初始化数据库,启动后端
-cd backend
+cd backend  
 python manage.py migrate  
 python manage.py runserver   0.0.0.0:6789
 #### 启动用户端

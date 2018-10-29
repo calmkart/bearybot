@@ -1,1 +1,1 @@
-../user_side/env/bin/python rtm.py
+python rtm.py

@@ -5,7 +5,9 @@ just a chatbot for beary
 #### 创建数据库
 数据库名 hubot_backend  
 #### 装虚拟环境
-pip install -r req.txt
+pip install -r req.txt  
+cd py-googletrans  
+python setup.py install  
 #### 初始化数据库,启动后端
 cd backend  
 python manage.py migrate  
